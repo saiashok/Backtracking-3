@@ -18,6 +18,8 @@
  *<Backtracking>
  * A nice way to track if the word is used in the current recurrsion is by changing the current board value and once the path is done, replace it with the charAt currentIndex.
  *<Backtracking>
+
+ About timecomplexity: 3^k because for a given node we have 3 posibile locations
  * 
  */
 
